@@ -229,6 +229,9 @@ pretium ac.</p>
     line-height: 25px;
 }
 ```
+
+![4](https://github.com/tiaraputriiiiii/Lab4Web/assets/115775237/5790b10d-d715-414a-9055-db1161a5bed0)
+
 **6. Mengatur Layout Main dan Sidebar**
 > - Selanjutnya mengatur main content dan sidebar, tambahkan CSS float
 ```
@@ -248,8 +251,6 @@ pretium ac.</p>
   padding: 20px;
 }
 ```
-
-![4](https://github.com/tiaraputriiiiii/Lab4Web/assets/115775237/5790b10d-d715-414a-9055-db1161a5bed0)
 
 **7. Membuat Sidebar Widget**
 > - Kemudian selanjutnya menambahkan element lain dalam sidebar
