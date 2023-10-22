@@ -1,0 +1,112 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    line-height:1;
+    font-size:100%;
+    font-family:'Open Sans', sans-serif;
+    color:#5a5a5a;
+}
+#container {
+    width: 980px;
+    margin: 0 auto;
+    box-shadow: 0 0 1em #cccccc;
+}
+/* header */
+header {
+    padding: 20px;
+}
+header h1 {
+    margin: 20px 10px;
+    color: #b5b5b5;
+}
+/* navigasi */
+nav {
+    display: block;
+    background-color: #1f5faa;
+}
+nav a {
+    padding: 15px 30px;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+} 
+nav a.active,
+nav a:hover {
+    background-color: #2b83ea;
+}
+/* Contact */
+.contact {
+    padding: 2rem 7% 1.4rem;
+  }
+  
+.contact h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+  }
+  
+  .contact p {
+    text-align: center;
+    max-width: 30rem;
+    margin: auto;
+    font-weight: 100;
+    line-height: 1.5;
+  }
+  
+  .contact .row {
+    display: flex;
+    margin-top: 2rem;
+    background-color: #ffffff;
+  }
+  
+  .contact .row .map {
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .contact .row form {
+    flex: 1 1 45rem;
+    pad: 5rem 2rem;
+    text-align: center;
+  }
+  
+  .contact .row form .input-group {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: #ffffff;
+    border: 1px solid #2b83ea;
+    padding-left: 2rem;
+  }
+  
+  .contact .row form .input-group input {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    background: none;
+    color: #fff;
+    border: none;
+  }
+  
+  .contact .row form .btn {
+    margin: 2rem;
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #2b83ea;
+    border-radius: 20px 20px;
+    border: none;
+  }
+  
+  .contact .row form .btn:hover {
+    background-color: darkcyan;
+    cursor: pointer;
+    transform: scale(0.98);
+  }
