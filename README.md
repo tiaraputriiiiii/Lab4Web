@@ -57,6 +57,8 @@ Kelas : TI.22.A1
 </html>
 ```
 
+![Screenshot 2023-10-17 100132](https://github.com/tiaraputriiiiii/Lab4Web/assets/115775237/63eaea3e-3b5d-4163-b370-4cdd2cba419b)
+
 **2. Mengatur Clearfix Element**
 > - **Clearfix** digunakan untuk mengatur element setelah float element. Property clear digunakan untuk
 mengaturnya.
@@ -102,6 +104,8 @@ mengaturnya.
 </html>
 ```
 
+![2](https://github.com/tiaraputriiiiii/Lab4Web/assets/115775237/b299c85f-dc94-462b-aaae-9157e807535c)
+
 **3. Membuat Layout Sederhana**
 ```
 <!DOCTYPE html>
@@ -132,14 +136,16 @@ mengaturnya.
     <p>&copy; 2021 - Universitas Pelita Bangsa</p>
 </footer>
 ```
+
+![1](https://github.com/tiaraputriiiiii/Lab4Web/assets/115775237/fc8adf16-ab3a-4f20-a593-199366b72a80)
+
 > - Kemudian tambahkan kode CSS untuk membuat layoutnya :
 ```
 /* import google font */
 @import
 url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 @import
-url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0
-,300;0,700;1,300&display=swap');
+url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0 ,300;0,700;1,300&display=swap');
 
 /* Reset CSS */
 * {
@@ -167,8 +173,7 @@ header h1 {
 }
 ```
 
-![7](https://github.com/syifaaurellia/Lab4web/assets/115867244/ed0a5780-d573-4bcc-ac6e-9b929486f6d9)
-
+![2](https://github.com/tiaraputriiiiii/Lab4Web/assets/115775237/fa58426f-5459-403f-a4b3-23679d90d530)
 
 **4. Membuat Navigasi**
 > - Kemudian selanjutnya mengatur navigasi
@@ -191,6 +196,9 @@ nav a:hover {
     background-color: #2b83ea;
 }
 ```
+
+![Screenshot 2023-10-17 104551](https://github.com/tiaraputriiiiii/Lab4Web/assets/115775237/b6db8a61-3503-4a4d-b94f-ec571e416a25)
+
 **5. Mmebuat Hero Panel**
 > - Membuat hero panel. Tambahkan kode HTML dan CSS seperti berikut.
 ```
@@ -240,6 +248,8 @@ pretium ac.</p>
   padding: 20px;
 }
 ```
+
+![4](https://github.com/tiaraputriiiiii/Lab4Web/assets/115775237/5790b10d-d715-414a-9055-db1161a5bed0)
 
 **7. Membuat Sidebar Widget**
 > - Kemudian selanjutnya menambahkan element lain dalam sidebar
@@ -295,6 +305,9 @@ pharetra est nunc, nec pretium nunc pretium ac.</p>
     line-height:25px;
 }
 ```
+
+![5](https://github.com/tiaraputriiiiii/Lab4Web/assets/115775237/dc2e474b-345f-434e-a1a8-339c65fa9dbc)
+
 **8. Mengatur Footer**
 > - Selanjutnya mengatur tampilan footer. Tambahkan CSS untuk footer
 ```
@@ -306,6 +319,9 @@ footer {
     color:#eee;
 }
 ```
+
+![Screenshot 2023-10-17 130616](https://github.com/tiaraputriiiiii/Lab4Web/assets/115775237/45860205-7398-4719-a538-d7c4b55088a9)
+
 **9. Menambahkan Elemen lainnya pada Main Content**
 ```
 <section id="main">
@@ -381,6 +397,9 @@ box img {
     clear:both;
 }
 ```
+
+![6](https://github.com/tiaraputriiiiii/Lab4Web/assets/115775237/64001197-e170-4886-8c19-247b103454f1)
+
 **10. Menambahkan Content Artikel**
 > - Selanjutnya membuat content artikel. Tambahkan HTML berikut pada main content
 ```
@@ -431,8 +450,97 @@ pretium ac.</p>
     float: right;
 }
 ```
+
+![7](https://github.com/tiaraputriiiiii/Lab4Web/assets/115775237/ab5496d1-500b-4c9d-ba2a-35808bd29794)
+
 **11. Lakukan validasi dokumen HTML dengan mengakses http://validator.w3.org/**
+
+![validasi jigsaw](https://github.com/tiaraputriiiiii/Lab4Web/assets/115775237/9e1d1da1-d569-49ba-a896-62ff50fa0370)
 
 ## Pertanyaan dan Tugas
 1. Tambahkan Layout untuk menu `About` => buat single layout yang berisi deskripsi, portfolio, dll
 ```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Sederhana</title>
+    <link rel="stylesheet" href="style_about.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>About Me</h1>
+        </header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html" class="active">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+        <section id="about" class="about">
+            <h2>About</h2>
+            <div class="row">
+                <div class="about-img">
+                    <img src="c:\Users\HP\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\D89C0C700FC0F0824A075D9027473CBF\WhatsApp Image 2023-09-06 at 14.54.11_0691b94f.jpg" alt="tentangdipca">
+                </div>
+                <div class="content">
+                    <h3>Hello!!</h3>
+                    <p>perkenalkan nama saya Tiara Putri saya adalah anak pertama dari dua bersaudara, saudara kandung saya bernama Muhammad Zidan Ramadhan. saat ini usia saya 19 tahun dan saya sedang menempuh s1 di jurusan Teknik Informatika di Universitas Pelita Bnngsa. saya mamiliki 3 teman di kelas yang selalu mensupport perkuliahan saya diantaranya adalah Syifa, Fathia, dan Aas.</p>
+                </div>
+            </div>
+            <h4>Portofolio</h4>
+            <p>Saya suka sekali mneggambar, membuat desain dan semua yang bersangkutan dengan kesenia. saya juga suka musik, saat saya duduk di bangku SMA saya pernah menjadi anggota paduan suara yang diadakan oleh pemda Kabupaten Bekasi.</p>
+        </section>
+        </body>
+        </html>
+```
+
+![layout about](https://github.com/tiaraputriiiiii/Lab4Web/assets/115775237/1b0c993a-e95d-43e7-a9ce-6c5308abe3e3)
+
+2. Tambahkan layout untuk menu `Contact` => yang berisi form isian: nama, email, message, dll
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Sederhana</title>
+    <link rel="stylesheet" href="style_kontak.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Layout sederhana</h1>
+        </header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html" class="active">Kontak</a>
+        </nav>
+        <section id="contact" class="contact">
+            <h2>contact</h2>
+            <div class="container">
+                <form>
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Pesan:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <input type="submit" value="Kirim Pesan">
+                </form>
+            </div>
+                    </section>
+                </body>
+                </html>
+```
+
+![contact](https://github.com/tiaraputriiiiii/Lab4Web/assets/115775237/7e9ab4e7-5e7d-4dc3-b778-059935fdb294)
+
+## Selesai, Terima kasih
